@@ -4,5 +4,6 @@
   "description": "AI-ranked building retrofit recommendations — capex planning, ROI/payback analysis, carbon abatement cost curves, hold-period-aligned investment strategies, and equipment replacement decision trees.",
   "author": { "name": "Soapbox", "url": "https://soapbox.build" },
   "homepage": "https://github.com/soapboxbuild/retrofit-advisor-skill",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "skills": ["skills"]
 }
