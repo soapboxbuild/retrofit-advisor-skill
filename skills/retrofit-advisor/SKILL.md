@@ -71,6 +71,30 @@ Should a building electrify HVAC?
 - HVAC maintenance standards
 - Submetering requirements
 
+## Required Output Format Per Recommendation
+
+For each retrofit measure, provide:
+- **Capex estimate** ($) and source/confidence level
+- **Annual energy savings** (kWh/yr or GJ/yr) and **annual cost savings** ($/yr)
+- **Simple payback period** (years = capex / annual savings)
+- **IRR** if hold period > 5 years
+- **Carbon abatement** (tCO2e/yr removed) and **abatement cost** ($/tCO2e = net capex / lifetime savings)
+- **Hold-period alignment**: flag if payback > remaining hold period
+- **Equipment remaining useful life** vs. replacement timing (don't replace 2-year-old equipment)
+- **Regulatory urgency**: does BPS compliance deadline change the financial calculus?
+
+## Measure Prioritization Framework
+
+1. **Operational/behavioral** (lowest cost, fastest payback): lighting schedules, HVAC setpoint optimization, plug load management
+2. **End-of-life replacement** (replace on failure with high-efficiency): upgrade when equipment reaches end of useful life
+3. **Deep retrofit** (highest impact, longest payback): envelope upgrades, HVAC replacement, fuel switching, electrification
+
+## Cross-References
+
+- Use Audette carbon reduction plan for NPV analysis and measure interaction effects
+- Use CRREM stranding year to determine urgency of decarbonization timeline
+- Use BPS compliance deadlines to identify regulatory-driven capex windows
+
 ## Reporting Measures
 For each recommended measure, report:
 | Measure | Cost | Annual Savings | Payback | CO2 Reduction/yr | Abatement Cost | IRA Credit |
